@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+body .poster {
+  display: flex;
+  height: 500px;
+  width: 666px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+body .poster img {
+  height: 100%;
+  width: auto;
+}
+body .poster p {
+  font-size: 14px;
+  color: grey;
+}
+body .poster .context {
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 60px;
+}
+body .poster .context .perfume {
+  letter-spacing: 3px;
+}
+body .poster .context .description {
+  line-height: 1.75;
+}
+body .poster .context h1 {
+  font-family: "Fraunces", sans-serif;
+}
+body .poster .context .price {
+  display: flex;
+  align-items: center;
+}
+body .poster .context .price h1,
+body .poster .context .price p {
+  display: inline-block;
+  padding: 0px 10px;
+}
+body .poster .context .price h1 {
+  font-family: "Fraunces", sans-serif;
+  color: hsl(158, 36%, 37%);
+}
+body .poster .context .price p {
+  text-decoration-line: line-through;
+}
+body .poster .context button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  width: 100%;
+  border-radius: 10px;
+  border-style: none;
+  border-color: hsl(158, 42%, 18%);
+  background-color: hsl(158, 36%, 37%);
+  font-weight: bold;
+}
+body .poster .context button img {
+  max-height: 30px;
+  width: auto;
+}
+body .poster .context button p {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  body .poster {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+  }
+  body .poster img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
