@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Reyuken/practiceTemplate1)
-- Live Site URL: [Add live site URL here](https://reyuken.github.io/practiceTemplate1/)
+- Solution URL: [https://github.com/Reyuken/practiceTemplate1](https://github.com/Reyuken/practiceTemplate1)
+- Live Site URL: [https://reyuken.github.io/practiceTemplate1/](https://reyuken.github.io/practiceTemplate1/)
 
 ## My process
 
